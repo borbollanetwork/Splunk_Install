@@ -96,7 +96,7 @@ echo PASSWORD=changeit  >> user-seed.conf
 # enable Splunk Web access via HTTPS
 touch web.conf
 echo [settings] > web.conf
-echo 'httpport = 8000' >> web.conf
+echo 'httpport = 443' >> web.conf
 echo 'enableSplunkWebSSL = true'  >> web.conf
 
 # starting the splunk without answer any questions

@@ -111,9 +111,9 @@ sudo ./splunk enable boot-start
 # Reload the profile of user to get the environment variables
 source ~/.bash_profile
 
-echo -e "${NC}${GREEN}---------------------------------------${NC} \n"
+echo -e "${NC}${GREEN}---------------------------------------${NC} \n\n"
 echo -e "${NC}${YELLOW}--> Credentials for Splunk Web: ${NC}${WHITE}\n"
-echo -e "${NC}${WHITE}--> ${NC}${YELLOW}admin ${NC}${WHITE}: ${NC}${YELLOW}changeit ${NC}${WHITE}\n"
+echo -e "${NC}${WHITE}--> ${NC}${YELLOW}admin ${NC}${WHITE}: ${NC}${YELLOW}changeit ${NC}${WHITE}\n\n"
 echo -e "${NC}${GREEN}---------------------------------------${NC} \n\n"
 sleep 10
 fi
